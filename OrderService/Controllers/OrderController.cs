@@ -18,9 +18,6 @@ namespace OrderService.Controllers
         private readonly OrderContext _orderContext;
         private readonly IUnitOfWork _unitOfWork;
         private IMomoService _momoService;
-        private readonly string partnerCode = "MOMO";
-        private readonly string accessKey = "F8BBA842ECF85";
-        private readonly string secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
         public OrderController(OrderContext orderContext, IUnitOfWork unitOfWork, IMomoService momoService)
         {
             _orderContext = orderContext;
