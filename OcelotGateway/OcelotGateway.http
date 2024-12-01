@@ -1,0 +1,11 @@
+@OcelotGateway_HostAddress = http://localhost:5117
+
+GET {{OcelotGateway_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{OcelotGateway_HostAddress}}/todos/1
+Accept: application/json
+
+###
